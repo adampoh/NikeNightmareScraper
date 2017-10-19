@@ -1,0 +1,21 @@
+{
+  "name": "scraping-nike",
+  "version": "0.0.1",
+  "description": "Scraping app for Nike.net",
+  "main": "index.js",
+  "dependencies": {
+    "nightmare": "^2.10.0"
+  },
+  "devDependencies": {
+    "nightmare": "^2.10.0",
+    "node-excel-export": "^1.4.2",
+    "vo": "^4.0.2",
+    "xlsx": "^0.11.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam",
+  "license": "ISC"
+}
